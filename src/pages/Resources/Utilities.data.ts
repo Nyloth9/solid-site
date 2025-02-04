@@ -2673,6 +2673,18 @@ const utilities: Array<Resource> = [
     type: PackageType.Package,
     categories: [ResourceCategory.UI, ResourceCategory.Primitives],
   },
+    {
+    link: 'https://github.com/Nyloth9/solid-notifications',
+    title: 'solid-notifications',
+    description:
+      'Reactive, customizable toast notifications for SolidJS.',
+    author: 'Marko Zekanovic',
+    author_url: 'https://github.com/Nyloth9',
+    keywords: ['toast', 'notification', 'notify'],
+    official: false,
+    type: PackageType.Package,
+    categories: [ResourceCategory.UI],
+  },
 ];
 
 export default utilities;
